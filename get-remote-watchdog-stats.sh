@@ -2,7 +2,9 @@
 
 # usage: get-remote-watchdog-stats.sh 
 
-#adjust  logfilepattern to suit 
+# Examine message types in drupal-watchdog logs. Compare # of drupal-requests to # of drupal-watchdog events
+
+# adjust  logfilepattern to suit 
 logfilepattern="drupal-watchdog.log-201509*gz drupal-watchdog.log-201510*gz"
 
 #adjust how far to look
