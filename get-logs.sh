@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# sync log files into an assumed directory structure
+# sync remote Acquia log files into an assumed local directory structure
 # if the directory structure doesn't exist yet, then create it and then sync
 #
 # this is the directory structure assumed:
