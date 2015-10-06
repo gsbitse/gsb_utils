@@ -24,6 +24,8 @@ function statwatchdog {
 	        echo -n \$reqs \"   \"; zcat \$reqs | wc -l   
 	        echo -n \$f \"   \"; zcat \$f | wc -l
 	        zcat \$f  | cut -d \"|\" -f3 | sort | uniq -c | sort -nr | head -$statdepth
+	        echo php msg counts
+	        zcat \$f | grep \"|php|\" | cut -d\"|\" -f9 | cut -d\"=\" -f1 | sort | uniq -c | sort -nr | head -5
 	done"
 }
 
