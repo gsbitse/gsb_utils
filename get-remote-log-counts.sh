@@ -1,9 +1,10 @@
 #!/bin/bash
+# Get line counts from remote Acquia logs - each line is an event
+# Useful for monitoring numbers of errors for example
 
-#adjust  logfilepattern to suit 
-#i.e. drupal and error logs for Sept and Oct 2015:
+# adjust  logfilepattern to suit 
+# for example,  drupal and error logs for Sept and Oct 2015:
 # logfilepattern="drupal-watchdog*201510*.gz php*201510*gz error*201510*gz"
-#
 
 logfilepattern="drupal*201509*gz drupal*201510*gz php*201509*gz php*201510*gz error*201509*gz error*201510*gz"
 
