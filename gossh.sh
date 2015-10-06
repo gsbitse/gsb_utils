@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# ssh into remote Acquia servers
+# Creates new tabs in a mac terminal window appropriate for the environment
+# For public gossh.sh public creates 2 new tabs with ssh to the two prod servers for users gsbpublic and gsbmygsb
+# For stage gossh.sh stage creates 2 new tabs with ssh in stage server for users gsbmygsb.test and gsbpublic.test
+
 #assumes you have your ssh keys set up under ~/.ssh
 #if not, read man ssh
 
